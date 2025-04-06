@@ -1,20 +1,24 @@
 {
-  "name": "backend",
+  "name": "video-processing-backend",
   "version": "1.0.0",
-  "description": "",
-  "license": "ISC",
-  "author": "@VariKX",
-  "type": "commonjs",
-  "main": "index.js",
+  "description": "Backend for video processing application",
+  "main": "dist/index.js",
   "scripts": {
-    "build": "npx tsc",
-    "start": "node dist/index.js"
+    "start": "node dist/index.js",
+    "dev": "ts-node-dev --respawn src/index.ts",
+    "build": "tsc"
   },
   "dependencies": {
-    "express": "^4.21.2"
+    "@types/cors": "^2.8.17",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1"
   },
   "devDependencies": {
-    "@types/express": "^5.0.1",
-    "typescript": "^5.8.2"
+    "@types/express": "^4.17.21",
+    "@types/multer": "^1.4.11",
+    "@types/node": "^20.11.19",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.3.3"
   }
 }
