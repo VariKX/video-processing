@@ -1,0 +1,29 @@
+* {
+  color: #252525;
+}
+
+body {
+  margin: 0;
+  background-color: #f9fcff;
+  min-height: 100vh;
+}
+
+header,
+main {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+h1,
+h2, 
+p {
+  margin: 0;
+}
+
+button,
+progress,
+input {
+  border: none;
+  background: transparent;
+  padding: 0;
+}

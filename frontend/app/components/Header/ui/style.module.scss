@@ -1,0 +1,10 @@
+@use "../../../_variables.scss" as *;
+
+.header {
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid $color-primary;
+  margin-bottom: 12px;
+}
